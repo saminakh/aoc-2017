@@ -1,6 +1,6 @@
 # Aoc
 
-**TODO: Add description**
+Samina does [advent of code 2017!](http://adventofcode.com/)
 
 ## Installation
 
