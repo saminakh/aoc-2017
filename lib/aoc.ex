@@ -3,16 +3,11 @@ defmodule Aoc do
   Documentation for Aoc.
   """
 
-  @doc """
-  Hello world.
+  def day1 do
+    Aoc.Day1.solve_p1("priv/day1_input.txt")
+    |> IO.inspect
 
-  ## Examples
-
-      iex> Aoc.hello
-      :world
-
-  """
-  def hello do
-    :world
+    Aoc.Day1.solve_p2("priv/day1_input.txt")
+    |> IO.inspect
   end
 end
